@@ -3,9 +3,9 @@ Challenge assignment for Data Collection
 
 Data for this challenge was from the folowing sites provided in the instructions:
 
-https://static.bc-edx.com/data/web/mars_news/index.html
+    https://static.bc-edx.com/data/web/mars_news/index.html
 
-
+    https://static.bc-edx.com/data/web/mars_facts/temperature.html
 
 Layout for assignment came from starter file.
 
@@ -61,4 +61,15 @@ https://www.geeksforgeeks.org/reading-and-writing-json-to-a-file-in-python/
 Setup (Mars Weather)
 --------------------------------------------------
 
+I once again used the method Ian from AskBCS provided to get the remote browser to work.
+
+--------------------------------------------------
+Step 1: Visit the Website (Mars Weather)
+--------------------------------------------------
+
+This section was provided by the starter file.
+
+--------------------------------------------------
+Step 4: Prepare Data for Analysis (Mars Weather)
+--------------------------------------------------
 
