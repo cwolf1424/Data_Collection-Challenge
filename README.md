@@ -70,6 +70,29 @@ Step 1: Visit the Website (Mars Weather)
 This section was provided by the starter file.
 
 --------------------------------------------------
-Step 4: Prepare Data for Analysis (Mars Weather)
+Step 5: Analyze the Data (Mars Weather)
 --------------------------------------------------
+The method for the following section:
 
+    plt.rcParams["figure.figsize"] = (10, 7)
+
+Was provided by Robert from AskBCS.
+
+The method for getting around the bug in MatPlotLib that would re-order the columns to numerical order, even after sorting the dataframe:
+
+    plt.bar(sorted_tp_by_month_df.index,sorted_tp_by_month_df["min_temp"])
+    plt.xticks(sorted_tp_by_month_df.index, sorted_tp_by_month_df["month"])
+
+Was created with the assistance of Robert from AskBCS as well.
+
+The following seciton:
+
+    On average, the third month has the coldest minimum temperature on Mars, and the eighth month is the warmest. But it is always very cold there in human terms!
+
+    Atmospheric pressure is, on average, lowest in the sixth month and highest in the ninth.
+
+    The distance from peak to peak is roughly 1425-750, or 675 days. A year on Mars appears to be about 675 days from the plot. Internet search confirms that a Mars year is equivalent to 687 earth days.
+
+Was provided in the starter. 
+
+My analysis came to the same conclusions, but I re-worded them
